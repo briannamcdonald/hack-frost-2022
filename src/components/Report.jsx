@@ -42,7 +42,7 @@ const Report = () => {
         </Box>
         <Box d="flex" flexDir="column" gap="4px">
           <Box d="flex" gap="8px">
-            <Checkbox size="lg" colorScheme="blackAlpha" />
+            <Checkbox defaultChecked size="lg" colorScheme="blackAlpha" />
             <Text fontSize="1.25rem" fontWeight="500">
               It happened here
             </Text>

@@ -14,15 +14,6 @@ const WarningNotification = () => {
     zoom: 8.5,
   };
 
-  const mapData = [
-    {
-      lat: 30.02419,
-      lng: 31.47016,
-      number: 200,
-      size: "medium",
-    },
-  ];
-
   return (
     <Box>
       <NavBar />
@@ -50,15 +41,6 @@ const WarningNotification = () => {
             lng: 31.24186,
           }}
         >
-          {mapData.map((el, i) => (
-            <MapMarker
-              key={i + 1}
-              lat={el.lat}
-              lng={el.lng}
-              number={el.number}
-              size={el.size}
-            />
-          ))}
         </GoogleMapReact>
         <Box position="absolute" top="0" w="100%" p="100px 10px 0 10px">
           <InputGroup>
