@@ -18,7 +18,7 @@ const Report = () => {
       lat: 59.95,
       lng: 30.33,
     },
-    zoom: 8.5,
+    zoom: 18,
   };
 
   return (
@@ -27,18 +27,18 @@ const Report = () => {
       <Box d="flex" flexDir="column" gap="18px" p="20px">
         <Box d="flex" flexDir="column" gap="8px">
           <Heading alignSelf="center" fontSize="1.5rem">
-            Make a Report
+            Make an Anonymous Report
           </Heading>
           <Text fontSize="1.25rem" fontWeight="500">
             Street
           </Text>
-          <Input boxShadow="base" bg="white" placeholder="E.g. El Tahrir" />
+          <Input boxShadow="base" bg="white" value="El Tahrir" />
         </Box>
         <Box d="flex" flexDir="column" gap="8px">
           <Text fontSize="1.25rem" fontWeight="500">
             City / Town
           </Text>
-          <Input boxShadow="base" bg="white" placeholder="E.g. Cairo" />
+          <Input boxShadow="base" bg="white" value="Cairo" />
         </Box>
         <Box d="flex" flexDir="column" gap="4px">
           <Box d="flex" gap="8px">
@@ -69,7 +69,7 @@ const Report = () => {
               defaultZoom={defaultProps.zoom}
               center={{
                 lat: 30.04458,
-                lng: 31.24186,
+                lng: 31.24010,
               }}
             >
               <MapLocationMarker lat="30.04495" lng="31.23956" />
@@ -89,7 +89,7 @@ const Report = () => {
           <Textarea
             boxShadow="base"
             bg="white"
-            placeholder="If you are comfortable with it, describe what happened."
+            placeholder="If you feel comfortable with it, describe what happened."
           />
         </Box>
         <Button
@@ -103,6 +103,7 @@ const Report = () => {
           left="20px"
           right="20px"
           size="md"
+          boxShadow="base"
         >
           Submit
         </Button>
