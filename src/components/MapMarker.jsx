@@ -3,9 +3,11 @@ import { BsGeoAlt } from "react-icons/bs";
 
 function MapMarker({ lat, lng, number, size }) {
   const sizeData = {
-    small: "100px",
-    medium: "100px",
-    large: "200px",
+    xxs: "25px",
+    xs: "45px",
+    small: "55px",
+    medium: "75px",
+    large: "100px",
     xl: "250px",
   };
 

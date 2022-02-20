@@ -19,7 +19,7 @@ const Home = () => {
         gap="40px"
         alignItems="center"
       >
-        <Box d="flex" flexDir="column" h="60vh" w="100%" gap="40px">
+        <Box d="flex" flexDir="column" h="60vh" w="100%" gap="45px">
           <HomeButton icon={FaMapMarkerAlt} text="Safety Map" color="#50A254" />
           <HomeButton
             icon={MdReportProblem}

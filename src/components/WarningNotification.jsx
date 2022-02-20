@@ -60,7 +60,7 @@ const WarningNotification = () => {
             />
           ))}
         </GoogleMapReact>
-        <Box position="absolute" top="0" w="100%" p="81px 10px 0 10px">
+        <Box position="absolute" top="0" w="100%" p="100px 10px 0 10px">
           <InputGroup>
             <Input
               filter="drop-shadow(4px 4px 22px rgba(0, 0, 0, 0.2))"
